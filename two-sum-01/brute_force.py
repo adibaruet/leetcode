@@ -1,17 +1,20 @@
-from typing import List
+#Time Complexity: O(n)
+#Space Complexity: O(1)
 
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        # Size of the input array
-        n = len(nums)
+    def majorityElement(self, nums):
+        major = nums[0]
+        count = 1
 
-        # Traverse the input array
-        for i in range(n):
-            for j in range(i + 1, n):
-                # Check if the sum of nums[i] and nums[j] is equal to the target
-                if target == nums[i] + nums[j]:
-                    # Return the indices as a list
-                    return [i, j]
+        for i in range(1, len(nums)):
+            if count == 0:
+                count = 1
+                major = nums[i]
+                continue
 
-        # No solution found, return an empty list
-        return []
+            if nums[i] == major:
+                count += 1
+            else:
+                count -= 1
+
+        return major
