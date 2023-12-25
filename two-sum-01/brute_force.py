@@ -16,5 +16,5 @@ class Solution:
                 count += 1
             else:
                 count -= 1
-
+                
         return major
