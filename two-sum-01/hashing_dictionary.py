@@ -1,7 +1,7 @@
 from typing import List
 
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def twoSumA3(self, nums: List[int], target: int) -> List[int]:
         num_dict = {}  # Dictionary to store the complement of each number along with its index
 
         # Traverse the input array

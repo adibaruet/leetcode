@@ -1,5 +1,7 @@
-#Time Complexity: O(n)
-#Space Complexity: O(1)
+# Boyer-Moore Majority Voting Algo
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)
 
 class Solution:
     def majorityElement(self, nums):
