@@ -1,3 +1,7 @@
+#time complexity O(n)
+#space complexity O(1)
+
+
 # Define the Solution class
 class Solution:
     # Define the sortColors method
