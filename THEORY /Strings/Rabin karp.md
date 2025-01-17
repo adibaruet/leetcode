@@ -32,7 +32,7 @@ The **Rabin-Karp Algorithm** addresses these limitations using a **rolling hash*
 > **Note**: The average case is efficient because the rolling hash reduces the need for recomputation, making each substring comparison nearly constant time.
 
 ---
-Here is the Python version of the Java implementation of the Rabin Karp Algorithm:
+Here is the Python  implementation of the Rabin Karp Algorithm:
 
 ```python
 # d is the number of characters in the input alphabet
