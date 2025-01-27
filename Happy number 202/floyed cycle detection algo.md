@@ -22,3 +22,5 @@ This approach works because of the following facts :
 
 When slow pointer enters the loop, the fast pointer must be inside the loop. 
 if we consider movements of slow and fast pointers, we can notice that distance between them (from slow to fast) increase by one after every iteration.
+
+refernece: GEEKS FOR GEEKS
