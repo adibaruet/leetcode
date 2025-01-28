@@ -2,11 +2,9 @@ from typing import List
 
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
-        # Sort both arrays
+
         nums1.sort()
         nums2.sort()
-        
-        # Use two pointers to find the intersection
         i, j = 0, 0
         intersection = []
         
@@ -16,7 +14,6 @@ class Solution:
             elif nums1[i] > nums2[j]:
                 j += 1
             else:
-                # If both elements are equal, add to the result
                 intersection.append(nums1[i])
                 i += 1
                 j += 1
