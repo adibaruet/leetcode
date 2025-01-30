@@ -19,11 +19,6 @@ A **hash code** is a numerical representation of a string.
 The **Rabin-Karp Algorithm** addresses these limitations using a **rolling hash**. Instead of recalculating the hash for every substring, the algorithm updates the hash in constant time as the pattern slides across the text.
 
 ---
-
-
-
----
-
 ## Complexity
 - **Best Case**: \( O(n - m + 1) \), where no hash collisions occur.
 - **Average Case**: \( O(n - m + 1) \), assuming an even distribution of hash values.
