@@ -77,6 +77,4 @@ Want to contribute or discuss solutions? Feel free to:
 
 🚀 _Happy Coding!_ 🎯  
 
----
 
-You can customize the **username, streak count, and problem count** as you progress. Let me know if you need further modifications! 🚀
