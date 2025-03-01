@@ -73,7 +73,7 @@ Want to contribute or discuss solutions? Feel free to:
 
 ---
 
-Resorce
+Resource
 https://ashef.gitbook.io/cse201
 
 🚀 _Happy Coding!_ 🎯  
